@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/background.png") no-repeat right top;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 90%;
+  width: 60%;
+  background: #282B4E;
+  display: block;
+  padding-top: 10px;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+
+#titleLine {
+  margin-bottom: 20px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 2em;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 1.3em;
+  padding-left: 20px;
+  font-weight: 300;
+}
+
+h3 {
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+.shoeImg {
+  display: block;
+  float: left;
+  width: 40%;
+  height: 40%;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+
+#colorNav {
+ float: right;
+ padding-top: 30px;
+ line-height: 40px;
+ font-weight: 300;
+ font-size: 0.7em;
+}
+
+#colorNav li {
+  cursor: pointer;
+}
+
+.colorCircle {
+  border-radius: 45px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.colorCircleOutline {
+  border-radius: 45px;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+
+#breakLine {
+    position: relative;
+    border-bottom: 2px solid white;
+    clear: both;
+    margin: 200px 0 20px 0;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+#leftColumn {
+  float: left;
+  width: 70%;
+    display: inline-block;
+}
+
+
+#productDesc{
+  width: 90%;
+  padding-bottom: 40px;
+  font-size: 0.8em;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+#oldPrice {
+  margin-left: 60px;
+}
+
+#price {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 10px 25px;
+}
+
+span {
+  font-weight: 700;
+}
+
+.blue {
+  border-radius: 15px;
+  background-color: blue;
+}
+
+#breakdown {
+  float: right;
+  line-height: 25px;
+  font-weight: 300;
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+
+#secondLine {
+  margin-left: 40px;
+  margin-top: 15px;
+  font-weight: 300;
+  text-align: center;
+}
